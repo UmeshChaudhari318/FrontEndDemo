@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="d1"></h1>
+    <div id="d2"> I am software Engineer</div>
+    <p id="d3">use of style through js</p>
+
+    <script>
+
+        //1. use of document.write()
+        document.write("Hello world");
+
+        // 2.use of window.alert()
+        window.alert("Good afternoon All");
+
+        //3. use of console.log()
+        console.log("this is output at webpage backend");
+
+        //4.DOM or inner html
+        document.getElementById("d1").innerHTML="Welcome you all in js session";  //we set value in html element
+
+        var data=document.getElementById("d2").innerHTML;  //we get value from html element into js
+        console.log(data);
+
+        document.getElementById("d3").style.color="blue";  //we set style property
+
+    </script>
+</body>
+</html>

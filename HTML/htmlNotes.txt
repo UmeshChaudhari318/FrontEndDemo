@@ -1,0 +1,41 @@
+26/09/2022
+
+*html: - it is use to create structure of webpage or website.
+       - it is use to display data to user on browser.
+       - Hyper Text Markup Language.
+       - Latest version of html is html5.
+
+       - It is tag basis Language
+       <tag>
+       - in html we have two types of tag
+       1. paired tag : <openingTag> content </closingTag>.
+       2. unpaired tag : <single>.
+
+       * head section : in contain meta data and external link.
+       *body section : write content to display on browser.
+
+       -lorem keyword is used for redymade paragraf.
+
+       *attribute: it gives you additional information about your tag.
+                - it comes in name and value paired.
+                - attribute always write in starting.
+
+     ../ folder se bahar nikalne ke liye
+     ./  file se bahar nikalne ke liye
+
+     * what is difference between html and html5
+     * what are features of html5
+
+     1- in html5 symantic element get introduce ex: header, footer, nav, section, aside
+     2- new tags and attribute are introduce ex: strong, em, ins, abbr, address,
+        new attribute: autocomle, autofocus, multiple, pattern
+        new input type: email, password, number, ten, color
+    3-  multimedia element get introduce: it allows us to insert audio and video file.
+
+    4- Html API
+        1.Geolocation : it return user current position
+        2.Drag and droup: we grab an object from one location and drag to another location.
+        3.web-worker:
+        4.web-storage: it is use to store user on browser
+            1.local storage: it is use to store user data for lifetime
+            2.session storage: it is use to store use data for limited time.

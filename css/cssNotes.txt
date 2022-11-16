@@ -1,0 +1,42 @@
+27/09/2022
+
+
+*CSS:- it is use to design you webpage or website.
+    :- latest version of css is css3.
+    :- its stands for cascading style sheet.
+
+*how many ways we can use css-
+    1.inline css: in this we need to write style attribute in starting tag. it means in a line.
+    2.internal css: in this we have to write style tag in html page.
+                    syntax: selector{
+                        property: value;
+                        property: value;
+                        property: value;
+                    }
+    3.external css : in this we need to create one separate css file and we have to import in html file using link tag.
+
+
+
+    *selector in css
+        1.element selector: in this we use element name.
+        2.group selector:in this we use group od element name.
+        3.id selector #: it is used to apply property to single element.
+        4.class selector(.):if you want css property to specific element.
+        5.universal selecto(*): if you want to apply csss property to all element available in webpage.
+
+
+    Types of element in html:
+    <startingtag attribute="value"> content or information. </endingtag>
+    in html we have two types of element-
+    1.block element: the element which always start on new line.
+                        it takes fullwidth of its screen.
+                        - ex: h1-h6, p, table.
+    2.inline element: the element which start on new line
+                    - it takes specific width of it.
+                    - ex: b, strong, img, a.
+
+    *box model concept
+    1.content: it can any information image.
+    2.padding: it use to clear area between content and element border.
+    3.border: it is line drown around element.
+    4.margin: it is use to clear area between border and screen border.

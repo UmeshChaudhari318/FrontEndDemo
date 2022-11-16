@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        //1.default function
+        function greet(){
+            return "this is simple function";
+        }
+       console.log(greet());
+
+       //2.parameterized function
+       function add(n1,n2){
+        return n1+n2;
+       }
+       console.log(add(200,65));
+       console.log(add(20,40));
+
+       //3.anonymous function: function with no name is called anonymous function
+       var mul=function(n1,n2){
+        return n1*n2;
+       }
+
+       console.log(mul(54,85));
+
+       //4.arrow function: function with no name and no function keyword
+       var div=(n1,n2)=>{
+        return n1/n2;
+       }
+       console.log(div(100,10));
+
+       //5. optional parameterize function:
+       var fullname = (fname,lname,mname="")=>{
+        return `${fname} ${mname} ${lname}`;
+       }
+       console.log(fullname("panchashil", "wankhede", "M."));
+
+       //6. rest parameterize function: when we don't know number of parameter are required
+       var students= (...std)=>{
+        return std;
+       }
+       console.log(students("akshay","anmol", "nikhil"));
+
+    </script>
+</body>
+</html>

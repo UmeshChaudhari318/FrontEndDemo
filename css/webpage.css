@@ -1,0 +1,31 @@
+.mylogo {
+    width: 91px;
+    border: 6px solid red;
+    margin: 14px 16px 0px 0px;
+    border-radius: 70px;
+    vertical-align: middle;
+}
+
+header {
+    background-color: aqua;
+    border-bottom: 10px solid blue;
+    height: 103px;
+    text-align: center;
+}
+
+.mytitle{
+    font-size: 67px;
+    margin-top:16px;
+    font-weight: 700;
+    text-shadow: 11px 8px 10px blue;
+    color: blue;
+}
+
+body{
+    background-image: url(../assets/images/social-3064515_1280-compressed.jpg);
+    background-size: cover;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+}

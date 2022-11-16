@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+        //use of object data type
+
+        var emp={
+            id:101,
+            name:"Rahul",
+            post:"Fullstack Developer"
+        }
+        document.write("Id:" + emp.id+ "Name:" + emp.name + "Post:" + emp.post);
+
+        //array of object
+
+        var employee=[
+            {id:201, name:"Balu", post:"React Developer", salary:95000},
+            {id:202, name:"amol", post:"python Developer", salary:96000},
+            {id:203, name:"kasturi", post:"Angular Developer", salary:97000},
+            {id:204, name:"Ganesh", post:"java Developer", salary:98000}
+
+        ]
+        document.write("<br>")
+        for(var i=0; i<=employee.length-1; i++){
+            document.write(`Id: ${employee[i].id} Name:${employee[i].name} Post:${employee[i].post} Salary:${employee[i].salary} <br> `);
+        }
+    </script>
+</body>
+</html>

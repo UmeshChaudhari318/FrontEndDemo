@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        var city=["mumbai", "pune", "nashik", "nagpur", "jalgaon", "kohlapur"];
+        console.log(city);
+        console.log(city.length);
+        console.log(city.length-1);
+        console.log(city[3]);
+        city[3]="NAGPUR";
+        console.log(city);
+
+        //1. push(): it add value at last index of an array
+        city.push("Amravati");
+        console.log(city);
+
+        //2.pop(): it remove value at last index of an array
+        city.pop();
+        console.log(city);
+
+        //3. unshift(): it add value at first index of an array.
+        city.unshift("Badnera", "wardha");
+        console.log(city);
+
+        //4.shift(): it remove value at first index of an array.
+        city.shift();
+        console.log(city);
+
+        //5.splice (start index, delete count, value to insert): we can add, remove data from middle.
+        city.splice(4,0,"Chandrapur", "Gadchiroli"); //there we add value
+        console.log(city);
+        city.splice(4,1);
+        console.log(city);
+        city.splice(2,2,"Washim","Nandurbar");  //there we add and remove value from array
+        console.log(city);
+
+        
+
+
+    </script>
+</body>
+</html>

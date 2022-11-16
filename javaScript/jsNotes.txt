@@ -1,0 +1,65 @@
+29/9/2022
+
+*what is javascript.
+    -it is use to add functionality into webpage or webapp.
+    -it is loosly typed language.
+    -it is interpreted language.
+
+*there are two ways to use javascript
+1. internal js: to write js code in html page for that write script in it.
+2. external js: we create seperate js file and import it in html file.
+
+*Data types in js
+   1. -number
+   2. -string
+   3. -boolean
+   4. -array: it is use to store value with same datatype
+          - in array data store on index basis
+          -array index always start with 0 index.
+          -array denoted by [].
+    5. object - it store different type of data in it.
+              - in this data store in key-value pairs
+              - we can access data outside of an object with objectName.keyname
+              - it is denoted by {}.
+
+*get output in js
+1.document.write();
+2.window.alert();
+3.console.log();
+4.DOM(Document Object Model).
+
+*Array and array methods
+
+
+*advanced functionality
+function: it is block of code which is use to perform specific tast.
+        - it will execute only when we call it.
+
+
+feactures of html5
+what are the differneces between html and html5
+what are the html API
+what is a block element and inline element with example
+what is symantic element 
+what are the new input type introduces in html5
+what is local storage and session storage
+what are the list types in html5
+
+
+how many ways we can use css 
+what are the selectors available in css
+what is a box model concept - what is padding and what is margin
+what are the position property with different value
+what is the use of z index - it has two values= 1 and -1.
+what is the use of overflow property.
+
+why javascript is called as losely type language
+what is a string and its method
+what is a optional parameterized function and rest parameterized function.
+what is clouser.
+what is hoisting.
+es5 and es6 feature
+difference bewteen var, late, const variable.
+
+
+
